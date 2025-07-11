@@ -1,1 +1,2 @@
-sudo apt remove Mozc-* Anthy* Thunderbird Libreoffice* Hdate-applet
+sudo apt purge Mozc-* Anthy* Thunderbird Libreoffice* Hdate-applet xiterm+thai mlterm-common
+sudo apt autoremove --purge
