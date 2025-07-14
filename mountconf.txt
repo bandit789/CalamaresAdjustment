@@ -102,6 +102,6 @@ mountOptions:
     - filesystem: ext4
       options: [ defaults ]
     - filesystem: btrfs
-      options: [ defaults, compress=zstd, noatime, discard=async,  space_cache=v2, ssd]
+      options: [ defaults, compress=zstd, noatime, discard=async,  space_cache=v2, ssd ]
     - filesystem: btrfs_swap
       options: [ defaults, noatime ]
