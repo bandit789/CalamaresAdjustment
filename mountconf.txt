@@ -64,11 +64,13 @@ btrfsSubvolumes:
       subvolume: /@log
     - mountPoint: /.snapshots
       subvolume: /@snapshots
+    - mountPoint: /swap
+      subvolume: /@swap
 
 # The name of the btrfs subvolume holding the swapfile.  This only used when
 # a swapfile is selected and the root filesystem is btrfs
 #
-btrfsSwapSubvol: /@swap
+# btrfsSwapSubvol: /@swap
 
 # The mount options used to mount each filesystem.
 #
