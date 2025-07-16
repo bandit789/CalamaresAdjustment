@@ -1,2 +1,2 @@
-sudo apt purge Mozc-* Anthy* Thunderbird Libreoffice* Hdate-applet xiterm+thai mlterm-common shotwell fcitx* gnome-tour uim*
+sudo apt purge Mozc-* Anthy* Thunderbird Libreoffice* Hdate-applet xiterm+thai mlterm-common shotwell fcitx* gnome-tour uim* evolution*
 sudo apt autoremove --purge
